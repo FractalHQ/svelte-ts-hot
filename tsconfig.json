@@ -1,0 +1,19 @@
+{
+    "extends": "@tsconfig/svelte/tsconfig.json",
+    "include": [
+        "src/**/*",
+        "src/node_modules"
+    ],
+    "exclude": [
+        "node_modules/*",
+        "__sapper__/*",
+        "public/*"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "esnext"
+    }
+}
